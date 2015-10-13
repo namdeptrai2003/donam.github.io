@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Team Vee</title>
+		<title>TeamVee</title>
 		<link rel="icon" type="image/png" href="images/TeamVeeB.png">
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -39,49 +39,57 @@
 			</header>
 
 		<!-- Banner -->
-			<section id="banner">
-				<h2>Welcome to the official site of Team Vee</h2>				
-			</section>
+			<section id="banner"></section>
 
 		<!-- Main -->
 			<section id="main" class="container">
 
 				<section class="box special">
 					<header class="major">
-						<h2>CyanogenMod 11</h2>
-						<p>LG Optimus L3 II - E425, E430, E431, E435</p>
+						<h2>Welcome to the site of Team Vee</h2>
 					</header>
-					<ul class="actions">
-						<li><a href="http://goo.gl/cTWZFJ" class="button">XDA Topic</a></li>
-						<li><a href="http://goo.gl/o850TK" class="button">AndroidPit Topic</a></li>
-						<li><a href="https://github.com/TeamVee" class="button">Sources</a></li>
-					</ul>
 				</section>
 
 				<section class="box special features">
-					<!--div class="features-row"-->
-						<section>
-							<span class="icon major fa-plus"></span>
-							<h3>RC5</h3>
-							See Changes in topics
-							<!-- Soon i will update to RC6 -->
-						</section>
-					<!--/div-->
-				</section>
-				<section class="box special features">
+					<section>
+						<header class="major">
+							<h2>LG Optimus L3 II - E425, E430, E431, E435</h2>
+						</header>
+						<p>CyanogenMod 11 - Release Candidate 7</p>
+						[new] Hack based on baseband to Fix Keys in L3II Dual (Only one kernel for all variants) - Very thanks to @Paget96</br>
+						[new] Set Model via init based on baseband for E425/E430/E431/E435</br>
+						[new] Support old recoverys (E425/E430/E431/E435) (But not will work in firsts version because SELinux)</br>
+						[changed] VeeKernel -> CAFKernel (Stock KitKat Kernel)</br>
+						3.4.108 -> 3.4.0</br>
+						[readded] Advanced Reboot Bootloader and Hot Reboot</br>
+						[changed] New wlan.ko</br>
+						[changed] Update some blobs (main: libmmjpeg and liboemcamera)</br>
+						[new] Vee-Common Device Tree (For V1 and Vee7)</br>
+						[broken] SELinux (Removed permissions - The RC7.1 or RC8 will fix this)</br>
+						[removed] AudioFilter.csv</br>
+						</br>
+						<ul class="actions">
+							<li><a href="http://goo.gl/cTWZFJ" class="button">XDA</a></li>
+							<li><a href="https://github.com/TeamVee" class="button">Sources</a></li>
+							<li><a href="https://www.androidfilehost.com/?fid=24052804347805550" class="button">Download</a></li>
+						</ul>
+					</section>
 					<div class="features-row">
 						<section>
 							<span class="icon major fa-question"></span>
 							<h3>What's not working:</h3>
-							Everything works</br>
+							VSync (Adreno Blobs LogCat Spam)</br>
+							Mic in EarPhone (or related)</br>
 						</section>
 						<section>
 							<span class="icon major fa-question"></span>
 							<h3>What's not available: </h3>
 							FM Radio</br>
+							KeyLED (In Single)</br>
 						</section>
 					</div>
 				</section>
+
 				<section class="box special features">
 					<span class="icon major fa-globe"></span>
 					<h3>Visitor Counter</h3>
