@@ -13,7 +13,7 @@
 			wide:		{ range: '-1680', href: 'css/style-wide.css' },
 			normal:		{ range: '-1280', href: 'css/style-normal.css', viewport: { scalable: false } },
 			narrow:		{ range: '-980', href: 'css/style-narrow.css', containers: '90%' },
-			narrower:	{ range: '-840', href: 'css/style-narrower.css', containers: '90%!' },
+			narrower:	{ range: '*', href: 'css/style-narrower.css' },
 			mobile:		{ range: '-736', href: 'css/style-mobile.css', containers: '100%!' },
 			mobilep:	{ range: '-480', href: 'css/style-mobilep.css' }
 		},
