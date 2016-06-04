@@ -1,11 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
-
-/*
-	Alpha by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic);
 
 /* Basic */
 
@@ -15,7 +9,7 @@
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Roboto", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -752,6 +746,13 @@
 
 /* Table */
 
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -774,6 +775,7 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+			text-align: left;
 		}
 
 		table th {
@@ -1425,3 +1427,4 @@
 		#cta .formerize-placeholder {
 			color: rgba(255, 255, 255, 0.75) !important;
 		}
+
